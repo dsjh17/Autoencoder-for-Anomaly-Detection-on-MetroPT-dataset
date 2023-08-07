@@ -25,7 +25,7 @@ There are 5 different python files in this project, arranged in the order you sh
 ![image](https://github.com/dsjh17/MetroPT/blob/main/image.png)
 
 4. autoencoder_results.py
-- calculation of reconstruction_error (training data), training_error, as well as threshold
+- calculation of reconstruction_error (from the training data), test_error, as well as threshold
 - confusion matrix detailing precision, recall and f1 score can be found here
 
 5. arima_model.py (optional)
