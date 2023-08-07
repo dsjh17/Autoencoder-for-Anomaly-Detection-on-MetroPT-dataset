@@ -20,7 +20,7 @@ There are 5 different python files in this project, arranged in the order you sh
 3. autoencoder_model.py
 - 4 models are found here: SAE_digital, SAE_analog, VAE_digital, VAE_analog
 - model architecture, plots of training/validation loss, and model predictions are available in this file
-- model (h5 file) and its respective predictions (pickle file) can be saved in your desired file paths
+- model (h5 file) and its respective predictions (pickle file) can be saved via your desired file paths
 - if done correctly, you should obtain 4 autoencoder models and 8 predictions (two for each model), as shown here:
 ![image](https://github.com/dsjh17/MetroPT/blob/main/image.png)
 
