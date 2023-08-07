@@ -32,6 +32,6 @@ There are 5 different python files in this project, arranged in the order you sh
 - Not successful in forecasting future trends - likely that the parameters used in the model are incorrect
 
 Rule of thumb:
-Auto-regressive(p) : Maximum lag for which correlation is significant (i.e. lies outside the confidence interval)
-Differencing (d) : Refers to order of differencing/no. of times differencing is applied
-Moving Average (q): Lag which did not significantly reduce correlation down to zero 
+- Auto-regressive(p) : Maximum lag for which correlation is significant (i.e. lies outside the confidence interval)
+- Differencing (d) : Refers to order of differencing/no. of times differencing is applied
+- Moving Average (q): Lag which did not significantly reduce correlation down to zero 
