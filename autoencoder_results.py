@@ -4,8 +4,6 @@ import pickle
 import preprocessing
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
 
-# Darren Sim Jun Hao
-
 np.set_printoptions(suppress=True, precision=10)
 
 class AutoencoderResults:
