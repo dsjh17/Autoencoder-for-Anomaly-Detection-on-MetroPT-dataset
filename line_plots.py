@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import preprocessing
 
-# Darren Sim Jun Hao
 class TimeSeriesVisualizer:
     def __init__(self, df):
         self.df = df
