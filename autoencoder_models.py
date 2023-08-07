@@ -10,8 +10,6 @@ from keras.layers import Conv1D, Conv1DTranspose, Lambda, Reshape, GlobalAverage
 from keras.callbacks import EarlyStopping
 from tensorflow.python.framework.ops import disable_eager_execution
 
-# Darren Sim Jun Hao
-
 disable_eager_execution() # variational autoencoder will not work without this
 # an alternative is to replace all instances of keras with tf.keras
 class AutoencoderModels:
