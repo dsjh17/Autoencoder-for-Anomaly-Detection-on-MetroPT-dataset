@@ -12,7 +12,7 @@ There are 5 different python files in this project, arranged in the order you sh
 
 1. preprocessing.py
 - Processes the data to the format used in the respective autoencoder and arima models 
-- Only needs to be run once to update the original dataset with new columns of useful information 
+- Only needs to be run once to update the original dataset with a new column of labels as detailed by the ground truth
 
 2. line_plots.py (optional)
 - For visualizing the various analog and digital sensors operating during a normal time frame, as well as during the periods of failure
