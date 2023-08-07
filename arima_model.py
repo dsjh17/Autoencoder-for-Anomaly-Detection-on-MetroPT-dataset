@@ -5,9 +5,8 @@ import matplotlib.pyplot as plt
 import statsmodels as sm
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 
-# Darren Sim Jun Hao
-
 # pmd autoarima is not effective on this data; sarimax from statsmodels should be used but the correct parameters need to be identified
+
 class ArimaModel:
 
     def __init__(self, train_data, test_data):
