@@ -15,7 +15,7 @@ class DataPreprocessor:
         self.digital_test = None
 
     def preprocessing_df(self):
-        # create a new column where 1 day before the timeframe as well as the timeframe indicated in the paper is labeled as unhealthy data i.e. 1
+        # create a new column where 2 weeks before the timeframe as well as the timeframe indicated in the paper is labeled as unhealthy data i.e. 1
         # healthy data is set as 0
         self.df['is_anomaly'] = np.where(
             ((self.df['timestamp'] >= "2022-02-14 06:00:00") & (self.df['timestamp'] <= "2022-03-01 02:00:00")) |
@@ -69,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
